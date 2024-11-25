@@ -1,0 +1,135 @@
+2024-11-25T21:37:18.280+02:00  INFO 4344 --- [main] .m.MappingAndViewingInfoApplicationTests : Starting MappingAndViewingInfoApplicationTests using Java 23.0.1 with PID 4344 (started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T21:37:18.289+02:00  INFO 4344 --- [main] .m.MappingAndViewingInfoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T21:37:22.844+02:00  INFO 4344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T21:37:23.483+02:00  INFO 4344 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 492 ms. Found 1 JPA repository interface.
+2024-11-25T21:37:28.018+02:00  INFO 4344 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T21:37:28.686+02:00  INFO 4344 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T21:37:29.035+02:00  INFO 4344 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T21:37:31.565+02:00  INFO 4344 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T21:37:31.716+02:00  INFO 4344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T21:37:33.740+02:00  INFO 4344 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4cfc0c48
+2024-11-25T21:37:33.745+02:00  INFO 4344 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T21:37:37.527+02:00  INFO 4344 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T21:37:37.685+02:00  INFO 4344 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T21:37:42.891+02:00  WARN 4344 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T21:37:46.518+02:00  INFO 4344 --- [main] .m.MappingAndViewingInfoApplicationTests : Started MappingAndViewingInfoApplicationTests in 29.263 seconds (process running for 33.445)
+2024-11-25T21:37:51.147+02:00  INFO 4344 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T21:37:51.158+02:00  INFO 4344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T21:37:51.216+02:00  INFO 4344 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T22:01:01.744+02:00  INFO 24072 --- [main] .m.MappingAndViewingInfoApplicationTests : Starting MappingAndViewingInfoApplicationTests using Java 23.0.1 with PID 24072 (started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T22:01:01.751+02:00  INFO 24072 --- [main] .m.MappingAndViewingInfoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T22:01:04.470+02:00  INFO 24072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T22:01:04.691+02:00  INFO 24072 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 183 ms. Found 1 JPA repository interface.
+2024-11-25T22:01:06.896+02:00  INFO 24072 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T22:01:07.245+02:00  INFO 24072 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T22:01:07.419+02:00  INFO 24072 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T22:01:08.913+02:00  INFO 24072 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T22:01:09.150+02:00  INFO 24072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T22:01:10.787+02:00  INFO 24072 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@6501b105
+2024-11-25T22:01:10.796+02:00  INFO 24072 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T22:01:14.169+02:00  INFO 24072 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T22:01:14.333+02:00  INFO 24072 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:01:15.875+02:00  WARN 24072 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T22:01:17.278+02:00  INFO 24072 --- [main] .m.MappingAndViewingInfoApplicationTests : Started MappingAndViewingInfoApplicationTests in 16.471 seconds (process running for 20.179)
+2024-11-25T22:01:19.272+02:00  INFO 24072 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:01:19.282+02:00  INFO 24072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T22:01:19.322+02:00  INFO 24072 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T22:12:01.864+02:00  INFO 15804 --- [main] .m.MappingAndViewingInfoApplicationTests : Starting MappingAndViewingInfoApplicationTests using Java 23.0.1 with PID 15804 (started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T22:12:01.871+02:00  INFO 15804 --- [main] .m.MappingAndViewingInfoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T22:12:06.099+02:00  INFO 15804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T22:12:06.375+02:00  INFO 15804 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 213 ms. Found 1 JPA repository interface.
+2024-11-25T22:12:09.310+02:00  INFO 15804 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T22:12:09.937+02:00  INFO 15804 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T22:12:10.270+02:00  INFO 15804 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T22:12:12.349+02:00  INFO 15804 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T22:12:12.484+02:00  INFO 15804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T22:12:13.843+02:00  INFO 15804 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4540c7
+2024-11-25T22:12:13.849+02:00  INFO 15804 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T22:12:16.482+02:00  INFO 15804 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T22:12:16.568+02:00  INFO 15804 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:12:17.561+02:00  WARN 15804 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T22:12:18.484+02:00  INFO 15804 --- [main] .m.MappingAndViewingInfoApplicationTests : Started MappingAndViewingInfoApplicationTests in 18.635 seconds (process running for 25.852)
+2024-11-25T22:12:19.724+02:00  INFO 15804 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:12:19.729+02:00  INFO 15804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T22:12:19.751+02:00  INFO 15804 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T22:43:27.327+02:00  INFO 13608 --- [main] .m.MappingAndViewingInfoApplicationTests : Starting MappingAndViewingInfoApplicationTests using Java 23.0.1 with PID 13608 (started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T22:43:27.332+02:00  INFO 13608 --- [main] .m.MappingAndViewingInfoApplicationTests : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T22:43:29.771+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:43:29.780+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T22:43:30.324+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 508 ms. Found 1 JPA repository interface.
+2024-11-25T22:43:30.376+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:43:30.379+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-25T22:43:30.415+02:00  INFO 13608 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.CPmovement.mapping_and_viewing_info.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-25T22:43:30.416+02:00  INFO 13608 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 19 ms. Found 0 Redis repository interfaces.
+2024-11-25T22:43:31.831+02:00  INFO 13608 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T22:43:32.025+02:00  INFO 13608 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T22:43:32.138+02:00  INFO 13608 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T22:43:33.211+02:00  INFO 13608 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T22:43:33.332+02:00  INFO 13608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T22:43:34.286+02:00  INFO 13608 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@2e0516a3
+2024-11-25T22:43:34.295+02:00  INFO 13608 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T22:43:36.559+02:00  INFO 13608 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T22:43:36.636+02:00  INFO 13608 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:43:37.600+02:00  WARN 13608 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T22:43:39.612+02:00  INFO 13608 --- [main] .m.MappingAndViewingInfoApplicationTests : Started MappingAndViewingInfoApplicationTests in 13.116 seconds (process running for 16.772)
+2024-11-25T22:43:41.041+02:00  INFO 13608 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:43:41.050+02:00  INFO 13608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T22:43:41.087+02:00  INFO 13608 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T22:44:14.617+02:00  INFO 19932 --- [main] c.C.m.MappingAndViewingInfoApplication   : Starting MappingAndViewingInfoApplication using Java 23.0.1 with PID 19932 (C:\Users\omerhad\Documents\mapping-and-viewing-info\target\classes started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T22:44:14.624+02:00  INFO 19932 --- [main] c.C.m.MappingAndViewingInfoApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T22:44:18.574+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:44:18.586+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T22:44:19.733+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 985 ms. Found 1 JPA repository interface.
+2024-11-25T22:44:19.854+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:44:19.862+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-25T22:44:19.980+02:00  INFO 19932 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.CPmovement.mapping_and_viewing_info.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-25T22:44:19.983+02:00  INFO 19932 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 0 Redis repository interfaces.
+2024-11-25T22:44:24.299+02:00  INFO 19932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T22:44:24.366+02:00  INFO 19932 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T22:44:24.367+02:00  INFO 19932 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-25T22:44:24.770+02:00  INFO 19932 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T22:44:24.774+02:00  INFO 19932 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 9955 ms
+2024-11-25T22:44:25.533+02:00  INFO 19932 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T22:44:25.855+02:00  INFO 19932 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T22:44:26.042+02:00  INFO 19932 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T22:44:27.806+02:00  INFO 19932 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T22:44:27.937+02:00  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T22:44:30.299+02:00  INFO 19932 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@e72fb04
+2024-11-25T22:44:30.311+02:00  INFO 19932 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T22:44:36.412+02:00  INFO 19932 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T22:44:36.522+02:00  INFO 19932 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:44:37.517+02:00  WARN 19932 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T22:44:39.025+02:00  INFO 19932 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T22:44:39.039+02:00  INFO 19932 --- [main] c.C.m.MappingAndViewingInfoApplication   : Started MappingAndViewingInfoApplication in 25.992 seconds (process running for 28.771)
+2024-11-25T22:45:15.841+02:00  INFO 19932 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:45:15.848+02:00  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T22:45:15.873+02:00  INFO 19932 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2024-11-25T22:45:58.147+02:00  INFO 1728 --- [main] c.C.m.MappingAndViewingInfoApplication   : Starting MappingAndViewingInfoApplication using Java 23.0.1 with PID 1728 (C:\Users\omerhad\Documents\mapping-and-viewing-info\target\classes started by omerhad in C:\Users\omerhad\Documents\mapping-and-viewing-info)
+2024-11-25T22:45:58.160+02:00  INFO 1728 --- [main] c.C.m.MappingAndViewingInfoApplication   : No active profile set, falling back to 1 default profile: "default"
+2024-11-25T22:46:02.419+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:46:02.429+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2024-11-25T22:46:03.205+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 737 ms. Found 1 JPA repository interface.
+2024-11-25T22:46:03.278+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Multiple Spring Data modules found, entering strict repository configuration mode
+2024-11-25T22:46:03.283+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data Redis repositories in DEFAULT mode.
+2024-11-25T22:46:03.333+02:00  INFO 1728 --- [main] .RepositoryConfigurationExtensionSupport : Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.CPmovement.mapping_and_viewing_info.repository.UserRepository; If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository
+2024-11-25T22:46:03.334+02:00  INFO 1728 --- [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 23 ms. Found 0 Redis repository interfaces.
+2024-11-25T22:46:05.356+02:00  INFO 1728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2024-11-25T22:46:05.408+02:00  INFO 1728 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2024-11-25T22:46:05.409+02:00  INFO 1728 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.31]
+2024-11-25T22:46:05.653+02:00  INFO 1728 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2024-11-25T22:46:05.655+02:00  INFO 1728 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 7085 ms
+2024-11-25T22:46:06.295+02:00  INFO 1728 --- [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2024-11-25T22:46:06.490+02:00  INFO 1728 --- [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.5.3.Final
+2024-11-25T22:46:06.600+02:00  INFO 1728 --- [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2024-11-25T22:46:07.542+02:00  INFO 1728 --- [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2024-11-25T22:46:07.629+02:00  INFO 1728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2024-11-25T22:46:08.478+02:00  INFO 1728 --- [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@38929da
+2024-11-25T22:46:08.485+02:00  INFO 1728 --- [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2024-11-25T22:46:10.150+02:00  INFO 1728 --- [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2024-11-25T22:46:10.228+02:00  INFO 1728 --- [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:46:10.794+02:00  WARN 1728 --- [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2024-11-25T22:46:11.827+02:00  INFO 1728 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2024-11-25T22:46:11.839+02:00  INFO 1728 --- [main] c.C.m.MappingAndViewingInfoApplication   : Started MappingAndViewingInfoApplication in 14.893 seconds (process running for 15.607)
+2024-11-25T22:46:21.664+02:00  INFO 1728 --- [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2024-11-25T22:46:21.667+02:00  INFO 1728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2024-11-25T22:46:21.675+02:00  INFO 1728 --- [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
